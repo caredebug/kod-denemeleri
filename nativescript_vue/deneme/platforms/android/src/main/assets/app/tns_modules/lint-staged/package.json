@@ -1,0 +1,160 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "lint-staged@^4.2.3",
+        "scope": null,
+        "escapedName": "lint-staged",
+        "name": "lint-staged",
+        "rawSpec": "^4.2.3",
+        "spec": ">=4.2.3 <5.0.0",
+        "type": "range"
+      },
+      "E:\\githubRespos\\kod-denemeleri\\nativescript_vue\\deneme\\node_modules\\nativescript-vue"
+    ]
+  ],
+  "_from": "lint-staged@>=4.2.3 <5.0.0",
+  "_id": "lint-staged@4.3.0",
+  "_inCache": true,
+  "_location": "/lint-staged",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/lint-staged-4.3.0.tgz_1508336700116_0.9888878378551453"
+  },
+  "_npmUser": {
+    "name": "okonet",
+    "email": "andrey@okonet.ru"
+  },
+  "_npmVersion": "5.4.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "lint-staged@^4.2.3",
+    "scope": null,
+    "escapedName": "lint-staged",
+    "name": "lint-staged",
+    "rawSpec": "^4.2.3",
+    "spec": ">=4.2.3 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/nativescript-vue"
+  ],
+  "_resolved": "https://registry.npmjs.org/lint-staged/-/lint-staged-4.3.0.tgz",
+  "_shasum": "ed0779ad9a42c0dc62bb3244e522870b41125879",
+  "_shrinkwrap": null,
+  "_spec": "lint-staged@^4.2.3",
+  "_where": "E:\\githubRespos\\kod-denemeleri\\nativescript_vue\\deneme\\node_modules\\nativescript-vue",
+  "author": {
+    "name": "Andrey Okonetchnikov",
+    "email": "andrey@okonet.ru"
+  },
+  "bin": {
+    "lint-staged": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/okonet/lint-staged/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "app-root-path": "^2.0.0",
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "cosmiconfig": "^1.1.0",
+    "execa": "^0.8.0",
+    "is-glob": "^4.0.0",
+    "jest-validate": "^21.1.0",
+    "listr": "^0.12.0",
+    "lodash": "^4.17.4",
+    "log-symbols": "^2.0.0",
+    "minimatch": "^3.0.0",
+    "npm-which": "^3.0.1",
+    "p-map": "^1.1.1",
+    "staged-git-files": "0.0.4",
+    "stringify-object": "^3.2.0"
+  },
+  "description": "Lint files staged by git",
+  "devDependencies": {
+    "babel-jest": "^21.0.2",
+    "babel-preset-env": "^1.6.0",
+    "commitizen": "^2.9.6",
+    "consolemock": "^0.3.0",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.5.0",
+    "eslint-config-okonet": "^5.0.1",
+    "eslint-plugin-node": "^5.1.1",
+    "husky": "^0.14.3",
+    "jest": "^21.1.0",
+    "jest-cli": "^21.1.0",
+    "jsonlint": "^1.6.2",
+    "prettier": "1.5.3",
+    "remove-lockfiles": "^1.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-C/Zxslg0VRbsxwmCu977iIs+QyrmW2cyRCPUV5NDFYOH/jtRFHH8ch7ua2fH0voI/nVC3Tpg7DykfgMZySliKw==",
+    "shasum": "ed0779ad9a42c0dc62bb3244e522870b41125879",
+    "tarball": "https://registry.npmjs.org/lint-staged/-/lint-staged-4.3.0.tgz"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "gitHead": "54809ae1837617f7f4e62c72040d62235e73f59f",
+  "greenkeeper": {
+    "ignore": [
+      "cosmiconfig"
+    ]
+  },
+  "homepage": "https://github.com/okonet/lint-staged#readme",
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": [
+      "./testSetup.js"
+    ]
+  },
+  "keywords": [
+    "lint",
+    "git",
+    "staged",
+    "eslint",
+    "prettier",
+    "stylelint",
+    "code",
+    "quality",
+    "check",
+    "format",
+    "validate"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "okonet",
+      "email": "andrey@okonet.ru"
+    }
+  ],
+  "name": "lint-staged",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okonet/lint-staged.git"
+  },
+  "scripts": {
+    "cz": "git-cz",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "precommit": "remove-lockfiles && node index.js",
+    "pretest": "npm run lint",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "version": "4.3.0"
+}
